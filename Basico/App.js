@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 import { StyleSheet, View } from 'react-native';
 import BoasVindas from './components/BoasVindas';
+import Calculo from './components/Calculo';
 
 export default class App extends Component{
   render(){
     return (
       <View style={styles.container}>
         <BoasVindas saudacao='Bom dia!' />
-      </View>
+        <Calculo />
+        </View>
     );
   }
 }
